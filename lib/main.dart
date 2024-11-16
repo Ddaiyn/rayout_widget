@@ -43,29 +43,26 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: ListView(
         children: [
-          Container(
-            color: Colors.blue,
-            height: 200,
+          ListTile(
+            leading: const Icon(Icons.phone),
+            title: const Text('山田 太郎'),
+            subtitle: const Text("070-1234-567"),
+            trailing: const Icon(Icons.arrow_forward_ios),
+            onTap: (){},
           ),
-          Container(
-            color: Colors.yellow,
-            height: 200,
+          ListTile(
+            leading: const Icon(Icons.phone),
+            title: const Text('鈴木 一郎'),
+            subtitle: const Text("080-1234-567"),
+            trailing: const Icon(Icons.arrow_forward_ios),
+            onTap: (){},
           ),
-          Container(
-            color: Colors.red,
-            height: 200,
-          ),
-          Container(
-            color: Colors.blue,
-            height: 200,
-          ),
-          Container(
-            color: Colors.yellow,
-            height: 200,
-          ),
-          Container(
-            color: Colors.red,
-            height: 200,
+          ListTile(
+            leading: const Icon(Icons.phone),
+            title: const Text('佐藤 花子'),
+            subtitle: const Text("090-1234-567"),
+            trailing: const Icon(Icons.arrow_forward_ios),
+            onTap: (){},
           ),
         ],
       ),
